@@ -1,0 +1,1 @@
+java -jar modules/swagger-codegen-cli/target/swagger-codegen-cli.jar meta -o output/csharp-unity-besthttp2 -n csharp-unity-besthttp2 -p com.bms.codegen

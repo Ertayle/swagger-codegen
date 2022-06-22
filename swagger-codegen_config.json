@@ -1,0 +1,5 @@
+{
+  "packageName" : "Battlecorp.Horizon.Api",
+  "sourceFolder" : "src",
+  "modelPropertyNaming": "camelCase"
+}
