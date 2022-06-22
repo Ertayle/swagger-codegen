@@ -2,7 +2,7 @@ java -cp output/csharp-unity-besthttp2/target/csharp-unity-besthttp2-swagger-cod
 	io.swagger.codegen.v3.cli.SwaggerCodegen generate ^
 	-i http://localhost:3000/api-json/                ^
 	-c swagger-codegen_config.json                    ^
-	-o unity_client_local                     ^
+	-o "%~dp0\output\generated\unity_client_local"                     ^
 	-l csharp-unity-besthttp2
-:: cd "%~dp0\unity_client_local"
-:: "%~dp0\unity_client_local\build.bat"
+:: cd "%~dp0\output\generated\unity_client_local"
+:: "%~dp0\build.bat"

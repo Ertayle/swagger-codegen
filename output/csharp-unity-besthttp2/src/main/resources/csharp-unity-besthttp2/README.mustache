@@ -104,7 +104,7 @@ namespace Example
     {
         public void main()
         {
-{{#apiInfo}}{{#apis}}{{#-first}}{{#operations}}{{#operation}}{{#-first}}
+{{#apiInfo}}{{#apis}}{{#first}}{{#operations}}{{#operation}}{{#first}}
             {{#hasAuthMethods}}
             {{#authMethods}}
             {{#isBasic}}
@@ -147,7 +147,7 @@ namespace Example
             {
                 Debug.Print("Exception when calling {{classname}}.{{operationId}}: " + e.Message );
             }
-{{/-first}}{{/operation}}{{/operations}}{{/-first}}{{/apis}}{{/apiInfo}}
+{{/first}}{{/operation}}{{/operations}}{{/first}}{{/apis}}{{/apiInfo}}
         }
     }
 }
